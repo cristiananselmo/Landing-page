@@ -1,0 +1,54 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.menu{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+
+    background-color: #004B57;
+}
+
+.menu a{
+    text-decoration:none;
+    padding:20px 20px;
+    color:black;
+}
+
+.menu a:hover{
+    background-color: #006A89;
+}
+
+.login{
+    margin-left:100px;
+}
+
+.menu img{
+    height:15%;
+    width:15%;
+    margin-right:60px
+}
+
+main{
+    border-bottom:5px solid gray;
+    
+}
+
+.conteudo{
+    padding:200px 100px 200px 100px;
+    background-image:url(./imagens/cosplays.jpg); 
+    background-repeat:no-repeat;
+    background-position:center;
+    background-color: lightgray;
+}
+
+.conteudo h1{
+    padding-bottom:40px;
+    font-size:50px;
+}
+
+
+
