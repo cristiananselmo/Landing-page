@@ -1,0 +1,78 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    border:none;
+    color: #373737;
+}
+
+body{
+    background-image: url(./imagens/login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+textarea:focus,input:focus{
+    outline:none;
+}
+
+a,label{
+    font-size: .8rem;
+}
+
+a:hover{
+    color: #08558b;
+}
+
+#login{
+    background-color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px 30px;
+    margin-top:10vh;
+    border-radius:10px;
+    text-align:center;
+}
+
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label,input{
+    display:block;
+    width: 100%;
+    text-align:center;
+}
+
+label{
+    font-weight: bold;
+    font-size: 20px
+}
+
+input{
+    border-bottom: 2px solid #323232;
+    padding:10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+#Esqueceu{
+    text-align: right;
+    display:block;
+}
+
+input[type="submit"]{
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:bold;
+    border:none;
+    height:40px;
+    border-radius:20px;
+    margin-top:30px;
+    color:white;
+    background-color: #004B57;
+    cursor:pointer;
+}
+
